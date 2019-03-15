@@ -5,12 +5,12 @@ import palettes from 'nice-color-palettes';
 
 class Canvas extends Component {
   state = {
+    background: '#000',
+    character: '#',
+    count: 5,
+    size: 5,
     palette: random.shuffle(random.pick(palettes)),
     points: [],
-    background: '#000',
-    character: '=',
-    count: 30,
-    size: 1,
   };
 
   // The canvas is drawn when the component is mounted.
@@ -116,7 +116,7 @@ class Canvas extends Component {
   render() {
     return (
       <>
-        <section id="form">
+        <aside id="form">
           <legend className="form-group">
             <label>Background </label>
             <input
@@ -152,15 +152,13 @@ class Canvas extends Component {
           <legend className="form-group">
             <button onClick={this.changeColor}>Change color!</button>
           </legend>
-        </section>
+        </aside>
         <section id="creative">
-          <div>
-            <canvas
-              ref={canvas => (this.myCanvas = canvas)}
-              height={768}
-              width={1024}
-            />
-          </div>
+          <canvas
+            ref={canvas => (this.myCanvas = canvas)}
+            height={768}
+            width={1024}
+          />
         </section>
       </>
     );
