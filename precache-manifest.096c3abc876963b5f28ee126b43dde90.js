@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/random-art-generator/static/css/main.b4f13624.chunk.css"
   },
   {
-    "revision": "2ed93240b5f773ef3f95a043f37ab106",
+    "revision": "240cc3d9ee6c618e69cb3a5c53903128",
     "url": "/random-art-generator/index.html"
   }
 ];
