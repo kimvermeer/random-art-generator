@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/random-art-generator/static/js/runtime~main.3bd6a7ca.js"
   },
   {
-    "revision": "c3c041adde7938dfee51",
+    "revision": "c958c9d5ab2fea8c68ec",
     "url": "/random-art-generator/static/js/main.c79481d4.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/random-art-generator/static/js/2.c4c76fd2.chunk.js"
   },
   {
-    "revision": "c3c041adde7938dfee51",
-    "url": "/random-art-generator/static/css/main.77ea8ace.chunk.css"
+    "revision": "c958c9d5ab2fea8c68ec",
+    "url": "/random-art-generator/static/css/main.b4f13624.chunk.css"
   },
   {
-    "revision": "333ba3e874e5be5d70f39f04152179a8",
+    "revision": "a9ef9ede169cbcee6d21a0a19277b15b",
     "url": "/random-art-generator/index.html"
   }
 ];

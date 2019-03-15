@@ -1,5 +1,5 @@
 {
-  "main.css": "/random-art-generator/static/css/main.77ea8ace.chunk.css",
+  "main.css": "/random-art-generator/static/css/main.b4f13624.chunk.css",
   "main.js": "/random-art-generator/static/js/main.c79481d4.chunk.js",
   "main.js.map": "/random-art-generator/static/js/main.c79481d4.chunk.js.map",
   "runtime~main.js": "/random-art-generator/static/js/runtime~main.3bd6a7ca.js",
@@ -7,7 +7,7 @@
   "static/js/2.c4c76fd2.chunk.js": "/random-art-generator/static/js/2.c4c76fd2.chunk.js",
   "static/js/2.c4c76fd2.chunk.js.map": "/random-art-generator/static/js/2.c4c76fd2.chunk.js.map",
   "index.html": "/random-art-generator/index.html",
-  "precache-manifest.b48ad8b31f3cbead399c1c3a5b3593a1.js": "/random-art-generator/precache-manifest.b48ad8b31f3cbead399c1c3a5b3593a1.js",
+  "precache-manifest.3bd4570abd1e8b81952bee9158dd1aad.js": "/random-art-generator/precache-manifest.3bd4570abd1e8b81952bee9158dd1aad.js",
   "service-worker.js": "/random-art-generator/service-worker.js",
-  "static/css/main.77ea8ace.chunk.css.map": "/random-art-generator/static/css/main.77ea8ace.chunk.css.map"
+  "static/css/main.b4f13624.chunk.css.map": "/random-art-generator/static/css/main.b4f13624.chunk.css.map"
 }
