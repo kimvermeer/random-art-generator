@@ -6,7 +6,7 @@ import palettes from 'nice-color-palettes';
 class Canvas extends Component {
   state = {
     background: '#000',
-    character: '#',
+    character: '#&~',
     count: 5,
     size: 5,
     palette: random.shuffle(random.pick(palettes)),
@@ -60,13 +60,14 @@ class Canvas extends Component {
       const [u, v] = position;
       const x = lerp(margin, width - margin, u);
       const y = lerp(margin, height - margin, v);
+      const characters = this.state.character.split('');
 
       context.save();
       context.fillStyle = color;
       context.font = `${radius * width}px "Helvetica"`;
       context.translate(x, y);
       context.rotate(rotation);
-      context.fillText(this.state.character, 0, 0);
+      context.fillText(characters[Math.floor(Math.random() * characters.length)], 0, 0);
 
       context.restore();
     });
